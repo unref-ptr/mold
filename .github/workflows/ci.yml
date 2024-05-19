@@ -17,4 +17,4 @@ jobs:
         cd build
         cmake -T clangcl ..
         cmake --build . -j $Env:NUMBER_OF_PROCESSORS
-        ls
+        dir /b/s *.exe  
